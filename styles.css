@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.logo img {
+  min-width: 220px;
+  width: 20vw; /* Adjust as needed */
+  margin-bottom: -50px;
+}
+
+.container {
+  max-width: calc(6/7 * 100vw);
+  width: 100%;
+}
+
+.main-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.main-section h1 {
+  font-size: 24px;
+  width: 100%;
+}
+
+.main-section h2 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.main-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.video-container {
+  width: 80%; /* 4/5 of screen width */
+  max-width: 560px; /* Maximum width for larger screens */
+  margin-bottom: 40px;
+}
+
+.video {
+  width: auto;
+  height: 38vw;
+}
+
+button {
+  background-color: #00bfff;
+  color: #f0f0f0;
+  padding: 2vw 2.5vw;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 40px;
+}
+
+button:hover {
+  background-color: #009acd;
+}
+
+.calendar-section {
+  padding: 50px 20px;
+}
+
